@@ -9,7 +9,9 @@
  * @package _s
  */
 
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -20,10 +22,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+		<?php if ( get_header_image() ) : ?>
+    <div id="site-header">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <img id="homeImage" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        </a>
+    </div>
+		<?php endif; ?>
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
