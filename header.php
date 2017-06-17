@@ -29,9 +29,10 @@
 	<header id="masthead" class="site-header" role="banner">
 		<?php if ( get_header_image() ) : ?>
     <div class="header-image-container">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+
+        <!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <img id="homeImage" src="<?php header_image(); ?>" class="header-image" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-        </a>
+        </a> -->
     </div>
 		<?php endif; ?>
 
