@@ -119,6 +119,8 @@ if ( ! function_exists( '_s_setup' ) ) :
 
 			wp_enqueue_style( '_s-style', get_stylesheet_uri() );
 
+			wp_enqueue_style( 'law-theme', get_template_directory_uri() . '/styles/law-theme.css');
+
 
 			wp_enqueue_script( 'bootstrapJs', get_template_directory_uri() . '/vendors/bootstrap/js/bootstrap.min.js', array( 'jquery'), '3.3.7', true );
 

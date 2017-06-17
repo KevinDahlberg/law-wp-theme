@@ -1,0 +1,32 @@
+
+.header-image-container {
+  /* The image used */
+/*background-image: url("img_parallax.jpg");*/
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header-image {
+  width : 100%;
+  height: auto;
+}
+
+.white-body {
+  background-color: teal;
+  z-index : 81;
+}
+
+#navbar {
+  background-color: black;
+  height: 50px;
+  width : 100%;
+  position : fixed;
+  z-index : 80;
+}
