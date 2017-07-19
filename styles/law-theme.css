@@ -1,4 +1,28 @@
+/**
+* This Stylesheet Provides the Additional Styling for the LAW Wordpress Theme
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+* Navbar
+* Header
+* About Template
+--------------------------------------------------------------*/
 
+/**
+* Navbar
+*/
+#navbar {
+  background-color: black;
+  height: 50px;
+  width : 100%;
+  position : fixed;
+  z-index : 80;
+}
+
+/**
+* Header
+*/
 .header-image-container {
   /* The image used */
 background-image: url("http://localhost:8000/wp-content/uploads/2017/05/cropped-FB_IMG_1477424221772.jpg");
@@ -18,15 +42,10 @@ background-size: cover;
   height: auto;
 }
 
+/**
+* About
+*/
 .white-body {
   background-color: teal;
   z-index : 81;
-}
-
-#navbar {
-  background-color: black;
-  height: 50px;
-  width : 100%;
-  position : fixed;
-  z-index : 80;
 }

@@ -1,7 +1,7 @@
 <div class="white-body">
 <div class="row">
   <div class="col-sm-12">
-  <h1>title for about page goes here</h1>
+  <h1><?php get_template_part</h1>
 </div>
 </div>
 <div class="row">

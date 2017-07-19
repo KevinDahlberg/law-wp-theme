@@ -27,14 +27,6 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 	<?php get_template_part( 'navbar' ); ?>
 	<header id="masthead" class="site-header" role="banner">
-		<?php if ( get_header_image() ) : ?>
-    <div class="header-image-container">
-
-        <!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-            <img id="homeImage" src="<?php header_image(); ?>" class="header-image" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-        </a> -->
-    </div>
-		<?php endif; ?>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', '_s' ); ?></button>
