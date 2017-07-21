@@ -1,5 +1,5 @@
 # LAW Wordpress Theme
-Custom Wordpress Theme designed for Lenny Alanis.  This theme is built upon the _S Wordpress Theme [found here](https://github.com/Automattic/_s) and utilizes skills learned both in Prime Digital Academy and through personal expirimentation.
+Custom Wordpress Theme designed for Lenny Alanis.  This theme is built upon the underscore_S Wordpress Theme [found here](https://github.com/Automattic/_s) and utilizes skills learned both in Prime Digital Academy and through personal experimentation.
 
 ## Setup
 Download .zip and install in Wordpress
